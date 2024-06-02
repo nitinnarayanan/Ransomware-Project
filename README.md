@@ -35,7 +35,7 @@ This project consists of a series of Python scripts designed to handle file encr
 - `watchdog` library
 
 You can install the required libraries using the following command:
-```sh
+
 pip install rsa pycryptodome watchdog
 
 
@@ -56,3 +56,56 @@ pip install rsa pycryptodome watchdog
     ```sh
     chmod +x *.py
     ```
+
+## Usage
+
+### Generating Text Files
+Run the `textfiles_generation.py` script to generate a specified number of text files:
+
+python textfiles_generation.py
+
+### Encrypting Text Files
+Run the attack.py script to encrypt all .txt files in the current directory:
+
+python attack.py
+
+### Detecting Malicious Files
+Run the detection.py script to scan for potentially malicious files:
+
+python detection.py
+
+### Mitigating Detected Threats
+Run the mitigation.py script to take action on detected malicious files:
+
+python mitigation.py
+
+You will be prompted to choose whether to delete the files or keep them, and optionally restart the system.
+
+### Decrypting Text Files
+Run the decrypt.py script to decrypt all previously encrypted .txt files:
+
+python decrypt.py
+
+### Monitoring File System Changes
+Run the monitoring.py script to monitor changes in a specific directory:
+
+python monitoring.py
+
+## Script Details
+attack.py
+This script encrypts all .txt files in the current directory using RSA encryption.
+
+detection.py
+This script scans files for the presence of specific keywords that are commonly associated with malicious scripts. If such keywords are found, the file is flagged as potentially malicious.
+
+mitigation.py
+This script provides options to delete files flagged as malicious by detection.py or to restart the system.
+
+watchdog_observer.py
+This script uses the watchdog library to monitor a specified directory for any changes and logs these changes.
+
+textfiles_generation.py
+This script generates a specified number of text files with unique content for testing purposes.
+
+decrypt.py
+This script decrypts all previously encrypted .txt files using RSA decryption.
