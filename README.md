@@ -6,13 +6,13 @@
 
 This project consists of a series of Python scripts designed to handle file encryption, detection of potentially malicious files, mitigation actions, file decryption, and file system monitoring. The project includes the following scripts:
 
-1. `attack.py`
-2. `detection.py`
-3. `mitigation.py`
-4. `monitoring.py`
-5. `textfiles_generation.py`
-6. `decrypt.py`
-
+1. `textfiles_generation.py`
+2. `attack.py`
+3. `detection.py`
+4. `mitigation.py`
+5. `decrypt.py`
+6. `monitoring.py`
+   
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
