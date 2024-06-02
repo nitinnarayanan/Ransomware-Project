@@ -1,6 +1,6 @@
 # Ransomware-Project
 
-# Project: File Encryption, Detection, and Mitigation System
+### File Encryption, Detection, and Mitigation System
 
 ## Overview
 
