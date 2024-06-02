@@ -91,6 +91,7 @@ Run the monitoring.py script to monitor changes in a specific directory:
 
 python monitoring.py
 
+
 ## Script Details
 attack.py
 This script encrypts all .txt files in the current directory using RSA encryption.
