@@ -9,7 +9,7 @@ This project consists of a series of Python scripts designed to handle file encr
 1. `attack.py`
 2. `detection.py`
 3. `mitigation.py`
-4. `watchdog_observer.py`
+4. `monitoring.py`
 5. `textfiles_generation.py`
 6. `decrypt.py`
 
@@ -24,8 +24,8 @@ This project consists of a series of Python scripts designed to handle file encr
     - [Mitigating Detected Threats](#mitigating-detected-threats)
     - [Decrypting Text Files](#decrypting-text-files)
     - [Monitoring File System Changes](#monitoring-file-system-changes)
-4. [Security Considerations](#security-considerations)
-5. [License](#license)
+4. [Script Details](#scriptdetails)
+
 
 ## Prerequisites
 
