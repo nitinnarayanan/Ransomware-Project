@@ -38,3 +38,20 @@ You can install the required libraries using the following command:
 ```sh
 pip install rsa pycryptodome watchdog
 
+## Setup and Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/yourproject.git
+    cd yourproject
+    ```
+
+2. Ensure all required libraries are installed:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+3. Make the scripts executable:
+    ```sh
+    chmod +x *.py
+    ```
